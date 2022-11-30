@@ -11,10 +11,7 @@ void setup() {
    population();
   //Theme: ie. Face (will work in portrait or landscape)
   faceSetup();
-  eyes();
-  nose();
-  mouth();
-  measles();
+ 
   //Background Image (could be in draw too)
   //End setup
 }
@@ -23,6 +20,10 @@ void draw() {
   //OS System Button
   //Start Button
   //Theme: face & measles with different sizes and colours
+   measles();
+   eyes();
+  nose();
+  mouth();
   /*
   circle(600, 400, 500);
   circle(500, 350, 50);
