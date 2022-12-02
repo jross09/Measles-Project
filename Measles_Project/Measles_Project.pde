@@ -24,8 +24,8 @@ void draw() {
   //Theme: face & measles with different sizes and colours
   measles();
   eyes();
-  nose();
   mouth();
+  nose();
   /*
   circle(600, 400, 500);
    circle(500, 350, 50);
