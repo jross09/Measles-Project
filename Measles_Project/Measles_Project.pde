@@ -1,11 +1,12 @@
 //Global Variables
 int appWidth, appHeight;
-color resetWhite=#FFFFFF;
+color resetWhite=#FFFFFF; //red=#FF1219, redDark=#D31E24;
 boolean nightMode=false; //basic night mode only changes measels
 //
 void setup() {
   //Display & Orientation
   size(1000, 800);
+  //background(red);
   displayOrientation();
   appWidth = width;
   appHeight = height;
