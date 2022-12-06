@@ -1,6 +1,6 @@
 void population() {
-  float centerX = appWidth*1/2;
-  float centerY = appHeight*1/2;
+  int centerX = appWidth*1/2;
+  int centerY = appHeight*1/2;
   //
   rectFaceX = centerX-appHeight*1/2;
   rectFaceY= appHeight * 0;
@@ -10,7 +10,13 @@ void population() {
   faceY= centerY;
   faceDiameter= appHeight;
   //
+  quitButtonX = centerX*4/10 - ( appWidth*4/10);
+  quitButtonY = centerY*4/10- ( appHeight*4/10 );
+  quitButtonWidth = appWidth * 4/10; 
+  quitButtonHeight = appHeight * 4/10; 
+}
+  //
+
   
-}//End Population
 //
 //End Population Subprogram
