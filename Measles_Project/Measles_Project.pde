@@ -6,6 +6,8 @@ color quitButtonColour, purple=#821CFA , blue=#1C35B9;
 Boolean nightMode=false; //basic night mode only changes measels
 Boolean start=false, noNowReallyStart=false;
 PFont titleFont;
+String title = "Quit!";
+float titleX, titleY, titleWidth, titleHeight;
 
 //
 void setup() {
@@ -22,14 +24,15 @@ void setup() {
 
   //Background Image (could be in draw too)
   //background image is red
-  
+  String[] fontList = PFont.list(); 
+  printArray(fontList); 
+  titleFont = createFont("Ravie", 48); 
   //End setup
 }
 //
 void draw() {
   //OS System Button
   //Quit Button
-  
   //Theme: face & measles with different sizes and colours
   measles();
   eyes();
@@ -45,8 +48,6 @@ void draw() {
   //
   rect( quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight );
   //
- fill(0);
- textAlign(CENTER, CENTER);
  
   //End draw
 }
