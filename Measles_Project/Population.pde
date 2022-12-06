@@ -15,8 +15,5 @@ void population() {
   quitButtonWidth = appWidth * 4/10; 
   quitButtonHeight = appHeight * 4/10; 
 }
-  //
-
-  
 //
 //End Population Subprogram
